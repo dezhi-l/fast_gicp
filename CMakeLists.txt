@@ -42,10 +42,10 @@ endif()
 ## catkin specific configuration ##
 ###################################
 if(catkin_FOUND)
-  catkin_package(
-    INCLUDE_DIRS include
-    LIBRARIES fast_gicp
-  )
+# catkin_package(
+#   INCLUDE_DIRS include
+#   LIBRARIES ndt_omp
+# )
 endif()
 
 ###########
