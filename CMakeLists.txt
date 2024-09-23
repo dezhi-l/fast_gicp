@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.0)
 project(fast_gicp)
 
 option(BUILD_VGICP_CUDA "Build GPU-powered VGICP" OFF)
-option(BUILD_apps "Build application programs" ON)
+option(BUILD_apps "Build application programs" OFF)
 option(BUILD_test "Build test programs" OFF)
 option(BUILD_PYTHON_BINDINGS "Build python bindings" OFF)
 
